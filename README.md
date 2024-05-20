@@ -5,3 +5,5 @@ Curso de visualización de informacion y analítica visual basado en el libro Vi
 ## Cuerpo Docente
 
 * Hernán Valdivieso (hvaldivieso@ing.puc.cl) - Docente
+* Daniela Concha - Ayudante Corrector
+* Francisca Ibarra - Ayudante Corrector

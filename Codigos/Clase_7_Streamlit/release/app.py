@@ -50,9 +50,12 @@ if __name__ == "__main__":
     df = load_data("Airbnb_Locations.csv")
     add_title_and_description()
     show_airbnb_dataframe(df)
-    filtered_df = country_filter(df)
-    show_airbnb_in_map(filtered_df, filtered_df.shape == df.shape)
-    column_1, column_2 = st.columns(2)
-    plot_days_of_week(filtered_df, column_1)
-    plot_airbnb_by_superhost(filtered_df, column_2)
-    interactive_view(filtered_df)
+    
+    # Descomentar a medida que avancemos
+
+    # filtered_df = country_filter(df)
+    # show_airbnb_in_map(filtered_df, filtered_df.shape == df.shape)
+    # column_1, column_2 = st.columns(2)
+    # plot_days_of_week(filtered_df, column_1)
+    # plot_airbnb_by_superhost(filtered_df, column_2)
+    # interactive_view(filtered_df)
